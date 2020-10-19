@@ -1,0 +1,107 @@
+@media screen and (max-width: 991px) {
+   .container {
+      padding: 0 40px;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .header {
+      &__logo {
+         width: 150px;
+      }
+
+      &__official {
+         font-size: 12px;
+
+         span {
+            font-size: 12px;
+         }
+      }
+
+      &__phone {
+         font-size: 15px;
+      }
+   }
+
+   .button {
+      width: 130px;
+   }
+
+   .promo {
+      background: url(../../img/bg1_859.jpg) left center/cover no-repeat;
+
+      &__header {
+         font-size: 35px;
+      }
+
+      &__subheader {
+         font-size: 20px;
+      }
+
+      &__wrapper {
+         text-align: center;
+         align-items: center;
+      }
+   }
+
+   .button_main {
+      width: 150px;
+      font-size: 14px;
+   }
+
+   .title {
+      font-size: 30px;
+   }
+
+   .priority {
+      &__icon {
+         font-size: 15px;
+         width: 150px;
+
+         span {
+            font-size: 12px;
+         }
+
+      }
+   }
+
+   .button_submit {
+      width: 150px;
+   }
+}
+
+@media screen and (max-width: 575px) {
+   .container {
+      padding: 0 5px;
+   }
+
+   .header {
+      flex-direction: column;
+
+      &__logo {
+         width: 250px;
+      }
+
+      &__official {
+         margin-top: 10px;
+      }
+
+      &__contacts {
+         margin-top: 20px;
+      }
+
+      &__phone {
+         font-size: 20px;
+      }
+
+      .button {
+         width: 185px;
+      }
+   }
+
+   .promo {
+      &__icons {
+         width: 100%;
+      }
+   }
+}

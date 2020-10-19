@@ -1,0 +1,30 @@
+.priority {
+   min-height: 470px;
+   text-align: center;
+   padding: 70px 0 65px 0;
+
+
+   &__icons {
+      display: flex;
+      margin-top: 65px;
+      justify-content: space-between;
+   }
+
+   &__icon {
+      width: 255px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #0d0d0d;
+
+      span {
+         font-size: 14px;
+         line-height: 1.2;
+         font-weight: 300;
+
+         a {
+            text-decoration: underline;
+            color: #ff0000;
+         }
+      }
+   }
+}

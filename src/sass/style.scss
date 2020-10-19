@@ -1,0 +1,16 @@
+.container {
+   max-width: 950px;
+   margin: 0 auto;
+}
+
+@import 'base/variables';
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/priority';
+@import 'blocks/consultation';
+@import 'blocks/titles';
+@import 'blocks/forms';
+@import 'blocks/media';
+@import 'blocks/carousel';
