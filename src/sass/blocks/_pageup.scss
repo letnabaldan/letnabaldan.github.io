@@ -1,0 +1,18 @@
+.pageup {
+   display: none;
+   position: fixed;
+   bottom: 40px;
+   right: 40px;
+   font-size: 70px;
+
+   color: $main-color;
+
+   transition: 0.5s all;
+
+   &:hover {
+      text-shadow: 3px 3px 20px $main-color;
+      border: none;
+      color: $main-color;
+      text-decoration: none;
+   }
+}

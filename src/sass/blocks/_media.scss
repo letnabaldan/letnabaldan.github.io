@@ -119,6 +119,8 @@
       width: 100%;
       padding: 0 10px;
    }
+
+
 }
 
 @media screen and (max-width: 575px) {
@@ -165,6 +167,24 @@
          flex-direction: column;
       }
 
+
+   }
+
+   .footer {
+      &__info {
+
+         width: 320px;
+         padding: 30px !important
+      }
+   }
+
+   .modal {
+      width: 270px;
+      padding: 10px !important;
+   }
+
+   .feed-form_mt25>input {
+      width: 250px;
 
    }
 }
