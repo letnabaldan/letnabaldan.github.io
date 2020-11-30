@@ -16,6 +16,14 @@
       font-weight: 700;
       color: #0d0d0d;
 
+      &_animated {
+         animation: heartbeat 1s ease infinite;
+
+         &:hover {
+            animation-play-state: paused;
+         }
+      }
+
       span {
          font-size: 14px;
          line-height: 1.2;
